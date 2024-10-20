@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квитки на концерт</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h2>Замовлення квитків</h2>
+    <form id="ticketForm">
+        <input type="text" id="firstName" placeholder="Ім'я"><br>
+        <input type="text" id="lastName" placeholder="Прізвище"><br>
+        <input type="email" id="email" placeholder="Електронна пошта"><br>
+        <select id="ticketType">
+            <option value="">Тип квитка</option>
+            <option value="standard">Стандартний</option>
+            <option value="vip">VIP</option>
+        </select><br>
+        <input type="number" id="ticketQuantity" placeholder="Кількість"><br>
+        <button type="submit">Замовити</button>
+        <p class="error" id="errorMessage">Заповніть всі поля!</p>
+    </form>
+
+    <script src="js.js"></script>
+</body>
+</html>

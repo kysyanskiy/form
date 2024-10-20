@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 5px;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px;
+}
+
+.error {
+    color: red;
+    display: none;
+}
